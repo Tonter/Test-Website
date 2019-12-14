@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #494ca2;
+    color: #c6cbef;
+    
+}
+
+.jumbotron {
+    background: #c6cbef;
+    text-align: center;
+    width: 370px;
+    height: 220px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;   
+    padding-bottom: 10px; 
+}
+
+h1 {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: black;
+}
+table {
+    background: #8186d5;
+    color: #c6cbef;
+    border-collapse: collapse;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;  
+    border-spacing: 20px;
+    padding: 0px;      
+}
+
+td {
+    border: 2px solid #c6cbef;
+    border-radius: 2px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    content: 100%;
+    cursor: pointer;
+    font-size: 105px;
+    padding: 0px;
+}
+
+.buttonDiv {
+    position: relative;
+    text-align: center;
+    bottom: 29px;
+    
+}
+button {
+    width: 370px;
+    height: 30px;
+    background: #8186d5;
+    color: white;
+    outline: 0px;
+    font-size: 15px;
+    border-radius: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #8d92d3;
+    
+}
+
+button:focus {
+    outline: none;
+}
+
+.players {
+    margin-top: 45px;
+}
+
+.winner {
+    display: none;
+    font-size: 60px;
+    margin-top: 35px;
+}
+
+.col-3{
+    background: #292b6e;
+   
+}
+
+.row {
+    height: 100%;
+}
